@@ -12,6 +12,7 @@ $(document).ready(function(e) {
 	var source=$("#home_template").html();
 	var body_template=Handlebars.compile(source);
 	conTem(body_template,home);
+	 $("#myTeams").hide();
 	//bringing home content
     $(".home").click(function(e)
 	{
@@ -19,6 +20,7 @@ $(document).ready(function(e) {
     var source=$("#home_template").html();
 	var body_template=Handlebars.compile(source);
 	conTem(body_template,home);
+	 $("#myTeams").hide();
 	});
 	
 	//bring teams content
@@ -45,12 +47,16 @@ $(document).ready(function(e) {
 	{
 		 $(".nav").find(".active").removeClass("active");
          $("#teams_id").addClass("active");
+		 $("#myTeams").show();
+		 
+		  
 	});
 	$("#database").click(function()
 	{
 		
          $(".nav").find(".active").removeClass("active");
          $("#teams_id").addRemove("active");
+		 $("#myTeams").hide();
 	});
 	
 	
