@@ -1,0 +1,62 @@
+/* CSS Document */
+.carousel {
+    
+	width:100%;
+}
+
+
+body > section > div.row > img
+{
+	width:100%;
+}
+body
+{
+	padding-top:60px;
+}
+.social-slide {
+	background-image:url(../img/facebook-hover.png);
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+.github
+{
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+}
+.copy
+{
+	text-align:center;
+	font-size:24px;
+	
+}
+.row
+{
+	padding-top:48px;
+}
+h1,h3,h2
+{
+	text-align:center;
+}
+.btn{
+  
+  display:block;
+  text-align:center;
+}
+
+   
+footer{background-color:linear-gradient;
+background: linear-gradient(#06F,#FFF);
+}
